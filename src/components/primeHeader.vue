@@ -2,7 +2,7 @@
 
   <div class="bg-red-500 text-gray-100 p-3 flex justify-content-between lg:justify-content-center align-items-center flex-wrap">
       <div class="font-bold mr-8">🔥  Hot Deals!</div>
-      <div class="align-items-cente lg:flex">
+      <div class="align-items-center lg:flex">
           <span class="line-height-3">Our Heeaerd</span>
       </div>
       <a class="flex align-items-center ml-2 mr-8">
