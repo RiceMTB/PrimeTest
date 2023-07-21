@@ -1,7 +1,7 @@
 <template>
   <div class="card flex justify-content-left">
     <div class="">
-      <label for="birth_date" class="fontsize-4 block text-left" style="font-size:10px">{{mylabel}}</label>
+      <label for="birth_date" class="block text-left" style="font-size:10px">{{mylabel}}</label>
       <Calendar v-model="date" inputId="birth_date"  />
     </div>
   </div>
