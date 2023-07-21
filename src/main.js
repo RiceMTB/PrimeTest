@@ -4,7 +4,7 @@ import router from'vue-router';
 import PrimeVue from 'primevue/config';
 
 import 'primevue/resources/primevue.min.css';
-import 'primevue/resources/themes/lara-dark-blue/theme.css';
+import 'primevue/resources/themes/nano/theme.css';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 
@@ -23,6 +23,7 @@ import Chips from 'primevue/chips';
 import Sidebar from 'primevue/sidebar';
 import Tooltip from 'primevue/tooltip';
 import Textarea from 'primevue/textarea';
+import Calendar from 'primevue/calendar';
 const app = createApp(App);
 
 app.use(PrimeVue);
@@ -33,6 +34,7 @@ app.component('Button', Button);
 app.component('Dropdown', Dropdown);
 app.component('AutoComplete', AutoComplete);
 app.component('Card', Card);
+app.component('Calendar', Calendar)
 app.component('Tag', Tag);
 app.component('Dialog', Dialog);
 app.component('Inplace', Inplace);

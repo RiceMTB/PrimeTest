@@ -3,7 +3,7 @@
  
     <primeHeader/>
     <textbox mylabel="Who can see this?"/>
-    <textbox mylabel="A Date"/>
+    <datepick mylabel="A Date"/>
     <textbox mylabel="Another Date"/>
     <textbox mylabel="Where did this come from?"/>
     <textbox mylabel="Title of this thing"/>
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-
+import datepick from './components/widgit/datepicker.vue'
 import primeTest from './components/primeTest_1.vue'
 import primeHeader from './components/primeHeader.vue'
 import atextbox from './components/texbox.vue'
@@ -25,7 +25,8 @@ import dropdown from './components/widgit/dropdown.vue'
 import textbox from  './components/widgit/textentry.vue'
 export default {
   name: 'App',
-  components: {
+  components: { 
+    datepick,
    
     primeTest,
     primeHeader,
