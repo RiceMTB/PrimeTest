@@ -3,6 +3,10 @@
  
     <primeHeader/>
     <textbox mylabel="Who can see this?"/>
+    <textbox mylabel="A Date"/>
+    <textbox mylabel="Another Date"/>
+    <textbox mylabel="Where did this com from?"/>
+    <textbox mylabel="Title of this thing"/>
     <atextbox mylabel='Summary' :myrow = "10" :mycol= "50"/>
     <dropdown/>
      <primeHeader/>
