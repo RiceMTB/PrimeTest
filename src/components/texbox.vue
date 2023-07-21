@@ -3,9 +3,13 @@
     <div class="card flex justify-content-center">
     <form @submit="onSubmit" class="flex flex-column gap-2">
         <span class="p-float-label">
-            <Textarea id="value" v-model="value" :class="{ 'p-invalid': errorMessage }" rows="10" cols=
-            "getrow()" aria-describedby="text-error" />
-            <label for="value">{{mylabel}} {{mycol}} col {{myrows}} row</label>
+            <Textarea id="value" 
+            v-model="value" 
+            :class="{ 'p-invalid': errorMessage }" 
+            :rows="getrow()" 
+            :cols="getcol()"
+            aria-describedby="text-error" />
+            <label for="value">{{mylabel}}</label>
         </span>
     </form>
     <Toast />
@@ -15,10 +19,18 @@
 <script>
   export default{ 
    
-    props:['mycol', 'myrows', 'mylabel'],
+   // props:['mycol', 'myrows', 'mylabel'],
+    props:{ 
+      mycol: Number,
+      myrow: Number,
+      mylabel: String
+    },
     methods:{ 
       getrow(){ 
-        return 20
+        return this.myrow
+      },
+      getcol(){ 
+        return this.mycol
       }
   }
   }
