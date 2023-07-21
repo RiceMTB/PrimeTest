@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-
+import router from'vue-router';
 import PrimeVue from 'primevue/config';
 
 import 'primevue/resources/primevue.min.css';
@@ -26,7 +26,7 @@ import Textarea from 'primevue/textarea';
 const app = createApp(App);
 
 app.use(PrimeVue);
-
+app.use(router);
 app.component('Panel', Panel);
 app.component('Toolbar', Toolbar);
 app.component('Button', Button);

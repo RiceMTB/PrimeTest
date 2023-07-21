@@ -2,7 +2,7 @@
   <div id="app">
     <primeHeader/>
     <primeTest/>
-    <atextbox mylabel='TEST' :myrows = "40" :mycol="40"/>
+    <atextbox mylabel='TEST' myrows = "5" :mycol= "5"/>
   </div>
 </template>
 
