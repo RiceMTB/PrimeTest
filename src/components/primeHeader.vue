@@ -1,6 +1,6 @@
 <template>
 
-  <div class="bg-red-500 text-gray-100 p-3 flex justify-content-between lg:justify-content-center align-items-center flex-wrap">
+  <div class="bg-red-500 text-gray-100 p-1 flex justify-content-between lg:justify-content-center align-items-center flex-wrap">
       <div class="align-items-center lg:flex">
           <span class="line-height-2">This Will Tell you who can see this</span>
       </div>
