@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    
     <primeHeader/>
     <primeTest/>
     <atextbox mylabel='TEST' :myrow = "20" :mycol= "40"/>
@@ -11,13 +12,15 @@ import HelloWorld from './components/HelloWorld.vue'
 import primeTest from './components/primeTest_1.vue'
 import primeHeader from './components/primeHeader.vue'
 import atextbox from './components/texbox.vue'
+import sidebar from './components/sidebar/main_sidebar.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
     primeTest,
     primeHeader,
-    atextbox
+    atextbox,
+    sidebar
   }
 }
 </script>

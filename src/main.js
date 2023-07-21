@@ -20,7 +20,7 @@ import Inplace from 'primevue/inplace';
 import InputText from 'primevue/inputtext';
 import Editor from 'primevue/editor';
 import Chips from 'primevue/chips';
-
+import Sidebar from 'primevue/sidebar';
 import Tooltip from 'primevue/tooltip';
 import Textarea from 'primevue/textarea';
 const app = createApp(App);
@@ -40,6 +40,7 @@ app.component('InputText', InputText);
 app.component('Editor', Editor);
 app.component('Chips', Chips);
 app.component('Textarea', Textarea);
+app.component('Sidebar', Sidebar)
 app.directive('tooltip', Tooltip);
 
 app.mount('#app');
