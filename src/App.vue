@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    
+    <sidebar/>
     <primeHeader/>
     <primeTest/>
     <atextbox mylabel='TEST' :myrow = "20" :mycol= "40"/>
+    <dropdown/>
   </div>
 </template>
 
@@ -13,6 +14,8 @@ import primeTest from './components/primeTest_1.vue'
 import primeHeader from './components/primeHeader.vue'
 import atextbox from './components/texbox.vue'
 import sidebar from './components/sidebar/main_sidebar.vue'
+import dropdown from './components/widgit/dropdown.vue'
+
 export default {
   name: 'App',
   components: {
@@ -20,7 +23,8 @@ export default {
     primeTest,
     primeHeader,
     atextbox,
-    sidebar
+    sidebar,
+    dropdown
   }
 }
 </script>
