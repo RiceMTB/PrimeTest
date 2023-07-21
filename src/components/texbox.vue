@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card flex justify-content-center">
+    <div class="card flex justify-content-left">
     <form @submit="onSubmit" class="flex flex-column gap-2">
         <span class="p-float-label">
             <Textarea id="value" 

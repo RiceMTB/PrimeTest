@@ -1,30 +1,33 @@
 <template>
   <div id="app">
-    <sidebar/>
+ 
     <primeHeader/>
-    <primeTest/>
-    <atextbox mylabel='TEST' :myrow = "20" :mycol= "40"/>
+    <textbox mylabel="Who can see this?"/>
+    <atextbox mylabel='Summary' :myrow = "10" :mycol= "50"/>
     <dropdown/>
+     <primeHeader/>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 import primeTest from './components/primeTest_1.vue'
 import primeHeader from './components/primeHeader.vue'
 import atextbox from './components/texbox.vue'
 import sidebar from './components/sidebar/main_sidebar.vue'
 import dropdown from './components/widgit/dropdown.vue'
-
+import textbox from  './components/widgit/textentry.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+   
     primeTest,
     primeHeader,
     atextbox,
     sidebar,
-    dropdown
+    dropdown,
+    textbox
   }
 }
 </script>
